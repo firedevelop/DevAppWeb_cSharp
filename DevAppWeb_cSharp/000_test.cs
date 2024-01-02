@@ -1,14 +1,12 @@
 ﻿using System;
-class cs000
+class Test
 {
-    public static void test(string[] args)
+    public static void test()
     {
-        Console.Write("hola");
-        Console.WriteLine("intro num1:");
-        Console.Write("hi");
-        string str1 = Console.ReadLine();
+        string myString = "   Hello World!   ";
+        
+        string myTrin = myString.Trim();
+        Console.WriteLine(myTrin);
 
-        Console.WriteLine("intro num2: ");
-        string str2 = Console.ReadLine();
     }
 }

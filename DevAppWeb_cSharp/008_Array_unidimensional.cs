@@ -1,15 +1,25 @@
 using System;
-
-public class ArrayUni
+class Arrays
 {
-    static char[] myArray = { 'a', 'b', 'c', 'd', 'e' };
-    public static void PrintABC()
+    public static void PrintArray()
     {
-        for (int x = 0; x < 5; x++)
-        {
-            myArray[1] = 'z';
-        }
-        Console.WriteLine(myArray[1]);
+        char[] abc = { 'a', 'd', 'i', 'p', 'm' };
+        int[] num = new int[3] { 1, 2, 3 };
+        string[] cycle = new string[] { "analisys", "diseño", "implementacion", "pruebas", "mantenimiento" };
 
+        foreach (char item in abc)
+        {
+            Console.WriteLine(item);
+        }
+        for (int i = 0; i < num.Length; i++)
+        {
+            Console.WriteLine(num[i]);
+        }
+        int x = 0;
+        while (x < cycle.Length)
+        {
+            Console.WriteLine(cycle[x]);
+            x++;
+        }
     }
 }
