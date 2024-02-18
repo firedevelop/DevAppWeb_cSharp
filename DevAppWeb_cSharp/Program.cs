@@ -6,6 +6,7 @@ class Program
     {
         Test.test();    
         /*
+        Variables.PrintVariables()      //001
         CarsModel.PrintCars();          //006
         DaysWeek.PrintDays();           //007
         Arrays.PrintArray();            //008
